@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "426037850766",
-    "project_id": "sistema-login-cadastro-c1ccd",
-    "storage_bucket": "sistema-login-cadastro-c1ccd.appspot.com"
+    "project_number": "735361934571",
+    "project_id": "miniapp-sistemacadastro",
+    "storage_bucket": "miniapp-sistemacadastro.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:426037850766:android:56b2be96d3fce2462fcfdf",
+        "mobilesdk_app_id": "1:735361934571:android:ea586ab19b8158a4d20aae",
         "android_client_info": {
           "package_name": "com.enercicio.enercicio"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD1yOLrVA4932hTDDeKvSWFINwLJiiARss"
+          "current_key": "AIzaSyAlQBSW8D2os0JXnlRj3O-o8VXkaolcZWI"
         }
       ],
       "services": {
