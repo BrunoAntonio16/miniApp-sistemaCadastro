@@ -1,3 +1,4 @@
+import 'package:enercicio/auth.dart';
 import 'package:flutter/material.dart';
 
 class TelaInterna extends StatefulWidget{
@@ -8,6 +9,7 @@ class TelaInterna extends StatefulWidget{
 }
 
 class _TelaInternaState extends State<TelaInterna> {
+  AuthService _authServ = AuthService();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +56,7 @@ class _TelaInternaState extends State<TelaInterna> {
                 ),
               ),
               ElevatedButton(onPressed: () {
-                Navigator.pop(context);
+                _authServ.logout();
               },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.black54,
