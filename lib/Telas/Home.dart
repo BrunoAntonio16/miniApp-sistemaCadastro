@@ -103,33 +103,6 @@ class _HomeState extends State<Home> {
                       TextFormField(
                         validator: (String? value) {
                           if (value == null) {
-                            return "O campo Confirme a Senha precisa ser preenchido...";
-                          }
-                          if (value.length < 8) {
-                            return "O campo Confirme a Senha precisa ter o minimo 8 caracteres";
-                          }
-                          return null;
-                        },
-                        decoration: const InputDecoration(
-                            hintText: "confirm password",
-                            fillColor: Colors.white,
-                            filled: true,
-                            hintStyle: TextStyle(
-                              color: Colors.black,
-                              fontWeight: FontWeight.w200,
-                              fontSize: 16,
-                            )),
-                        obscureText: true,
-                        style: const TextStyle(
-                          color: Color.fromARGB(255, 0, 0, 0),
-                          fontWeight: FontWeight.w200,
-                          fontSize: 16,
-                        ),
-                      ),
-                      const SizedBox(height: 5),
-                      TextFormField(
-                        validator: (String? value) {
-                          if (value == null) {
                             return "O Name precisa ser preenchido...";
                           }
                           if (value.length < 3) {
